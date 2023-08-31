@@ -29,7 +29,7 @@ import org.apache.logging.log4j.Logger;
 import com.amazonaws.services.kinesisanalytics.runtime.KinesisAnalyticsRuntime;
 
 /**
- * This class has the entry point for the Flink Application. It receives events
+ * This class builds the entry point for the Flink Application. It receives events
  * from a source Kinesis Stream, applies Session Window operator, and executes
  * an aggregate function on sessionized data, and writes output to Amazon S3
  * sink.
