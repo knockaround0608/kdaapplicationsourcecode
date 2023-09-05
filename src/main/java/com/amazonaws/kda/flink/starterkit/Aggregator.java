@@ -5,7 +5,7 @@ import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.core.JsonProcessin
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * This class implements AggregateFunction. It aggregates several events into a
+ * This class implements AggregateFunction. It aggregates multiple events into a
  * composite event and it is applied on top of Flink Session window.
  * 
  * @author Ravi Itha, Amazon Web Services, Inc.
